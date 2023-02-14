@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class PageWork {
     public static Set<String> deletedPages(Day firstDay, Day secondDay) throws MyException {
-        if (Validation.isValidDay(firstDay, secondDay))
+        if (!Validation.isValidDay(firstDay, secondDay))
             throw new MyException("Переменные дня имеют Null-ссылку");
 
         Map<String, String> firstDayUrls = firstDay.getUrls();
@@ -28,7 +28,7 @@ public class PageWork {
     }
 
     public static Set<String> createdPages(Day firstDay, Day secondDay) throws MyException {
-        if (Validation.isValidDay(firstDay, secondDay))
+        if (!Validation.isValidDay(firstDay, secondDay))
             throw new MyException("Переменные дня имеют Null-ссылку");
 
         Map<String, String> secondDayUrls = secondDay.getUrls();
@@ -45,7 +45,7 @@ public class PageWork {
     }
 
     public static Set<String> changedPages(Day firstDay, Day secondDay) throws MyException {
-        if (Validation.isValidDay(firstDay, secondDay))
+        if (!Validation.isValidDay(firstDay, secondDay))
             throw new MyException("Переменные дня имеют Null-ссылку");
 
         Map<String, String> secondDayUrls = secondDay.getUrls();

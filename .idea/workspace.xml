@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07e506cb-b6a2-4500-ba0f-93254e170c8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/PageWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Validation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day/Day.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/PageWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/PageWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +58,22 @@
       <updated>1676288168001</updated>
       <workItem from="1676288169193" duration="1381000" />
       <workItem from="1676299321286" duration="1448000" />
-      <workItem from="1676385307346" duration="1243000" />
+      <workItem from="1676385307346" duration="2267000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
